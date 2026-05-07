@@ -1,12 +1,12 @@
-function showsection(showsectionId){
-    let section= document.querySelectorAll(".section");
+function showsection(sectionId){
+    let sections = document.querySelectorAll('.section');
 
-    sections.array.forEach(element => {
-        section.style.display="none";
+          sections.forEach(function(sec){
+            sec.style.display="none";
         
     });
         
-    document.getElementById(sectionId).style.display="plock";
+    document.getElementById(sectionId).style.display="block";
     
 }
 
